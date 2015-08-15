@@ -1,7 +1,7 @@
 # multilan
 Multilanguage documents in MS Word
 
-# Introduction
+## Introduction
 When dealing with various language-versions of the same document, there are some problems that keep on arising:
 -	Adding/removing/changing text in one file needs to be repeated in the others.
 -	Changing the layout in one file needs to be repeated in the others.
@@ -14,7 +14,7 @@ As an additional feature, I want to be able to indicate that some text parts hav
 
 That is what this project does. It defines rules for creating a 'master document', and uses VBA to turn that master document into a one or more single-language documents.
 
-# Master document
+## Master document
 Which language a piece of text in the master document is in, is indicated with special characters, which are the curly brackets { and }. The first character after the opening bracket (the 'tag') is used to characterize the text. 
 
 There are 2 types of tags:
@@ -27,18 +27,18 @@ E.g.: I'd like to have {1pizza}{2curry}{3a hamburger} for dinner tonight, togeth
 
 Concerning nesting of tags: languange tags cannot not be nested inside of language tags, and option groups cannot be nested inside of option groups. However, an option group can be nested inside of a language tag, and vice versa. 
 
-# Example file
+## Example file
 See `math.docx`.
 
-# Compiling single-language documents
+## Compiling single-language documents
 When turning the master document into a single-language document ("compiling"), the following is done to the new document: (the original is left untouched)
 *	All text belonging to other languages (i.e., with other language tags) is removed.
 *	All comments are removed.
 *	You are asked, which option you want to keep in each group.
 
-# Consequences / limitations
+## Consequences / limitations
 *	Because the curly brackets are special characters, these can no longer be used in the text. I could have implemented escape characters, but I didn't at this point.
 *	Because highlighting is used as well, you can no longer use highlighting in the text.
 
-# How to run
+## How to run
 Keep the document `multilan.docm` open, and also open your master document. Then, with the focus on this document, press ALT-F8 and run the macro 'showForm'. Make sure you have macros enabled. Should run in all MS Office versions >=2007, but I only tested with Office 2010 under Windows 8.1. 
