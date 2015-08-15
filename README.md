@@ -1,5 +1,6 @@
 # multilan
-Multilanguage documents in MS Word
+Multilanguage documents in MS Word.  
+Yes, MS Word. Please don't lynch me. I always use it in a virtual machine in a linux host, I swear.
 
 ## Introduction
 When dealing with various language-versions of the same document, there are some problems that keep on arising:
