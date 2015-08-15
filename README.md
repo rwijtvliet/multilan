@@ -26,7 +26,7 @@ E.g.: {eName}{sNombre}: Sjaak
 - Number. This is used to indicate various 'options', of which only one should end up in the final document. The first must be 1, then 2, etc. There can be 5 options for each given text block (an 'option group'). When starting a new option group, simply start with 1 again.  
 E.g.: I'd like to have {1pizza}{2curry}{3a hamburger} for dinner tonight, together with {1coke}{2beer}.
 
-Concerning nesting of tags: languange tags cannot not be nested inside of language tags, and option groups cannot be nested inside of option groups. However, an option group can be nested inside of a language tag, and vice versa. 
+Concerning nesting of tags: languange tags cannot not be nested inside of language tags, and option groups cannot be nested inside of option groups. However, an option group can be nested inside of a language tag, and vice versa, but always only 1 level deep.
 
 ## Example file
 See `math.docx`.
