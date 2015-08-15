@@ -20,10 +20,10 @@ Which language a piece of text in the master document is in, is indicated with s
 There are 2 types of tags:
 
 - Lower-case letter. These are used to indicate the language of a text; same letters indicating the same language. I use 'e' for Englisch, 's' for Spanish, 'd' for German. You can pick your own, as long as they are used consistently.
-E.g.: {eName}{sNombre}: Ruud
+  E.g.: {eName}{sNombre}: Ruud
 
 - Number. This is used to indicate various 'options', of which only one should end up in the final document. The first must be 1, then 2, etc. There can be 5 options for each given text block (an 'option group'). When starting a new option group, simply start with 1 again. 
-E.g.: I'd like to have {1pizza}{2curry}{3a hamburger} for dinner tonight, together with {1coke}{2beer}.
+  E.g.: I'd like to have {1pizza}{2curry}{3a hamburger} for dinner tonight, together with {1coke}{2beer}.
 
 Concerning nesting of tags: languange tags cannot not be nested inside of language tags, and option groups cannot be nested inside of option groups. However, an option group can be nested inside of a language tag, and vice versa. 
 
