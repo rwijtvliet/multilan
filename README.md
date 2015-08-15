@@ -4,7 +4,7 @@ Multilanguage documents in MS Word
 ## Introduction
 When dealing with various language-versions of the same document, there are some problems that keep on arising:
 -	Adding/removing/changing text in one file needs to be repeated in the others.
--	Changing the layout in one file needs to be repeated in the others.
+-	Changing the layout in one file needs to be repeated in the others.  
 In short, work needs to be repeated, and things are bound to be forgotten. 
 
 In an ideal world, you would first make the document in one language, and only when you are absolutely positive that it's the way it will stay, would you translate them. However, this is often impossible, especially when the document is 'alive' and gets various updates throughout its lifetime.
