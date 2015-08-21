@@ -43,4 +43,4 @@ When turning the master document into a single-language document ("compiling"), 
 *	Because highlighting is used as well, you can no longer use highlighting in the text.
 
 ## How to run
-Keep the document `multilan.docm` open, and also open your master document. Then, with the focus on this document, press ALT-F8 and run the macro 'showForm'. Make sure you have macros enabled. Should run in all MS Office versions >=2007, but I only tested with Office 2010 under Windows 8.1. 
+Keep the document `multilan.docm` open, and also open your master document. Then, with the focus on the `multilan` document, press ALT-F8 and run the macro `showForm`. Make sure you have macros enabled. Should run in all MS Office versions >=2007, but I only tested with Office 2010 under Windows 8.1. 
